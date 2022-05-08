@@ -1,0 +1,3 @@
+# Project exclude paths
+/node_modules/
+/project name (default is express-gen-ts)/node_modules/
