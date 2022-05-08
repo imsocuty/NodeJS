@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "tsc-watch --onSuccess  \"babel-node lib/bin/www\""
+    "start": "nodemon bin/www.js --exec babel-node"
   },
   "dependencies": {
     "@babel/core": "^7.17.10",
